@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Candy Crush Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<main class="game-shell">
+
+    <header class="game-header">
+        <div class="logo-wrap">
+            <h1>Candy<br><span>Crush</span></h1>
+            <span class="logo-swirl">🍭</span>
+        </div>
+        <p class="tagline">Match the candies and score big!</p>
+    </header>
+
+    <section class="score-row">
+        <div class="score-card">
+            <span class="score-icon">🏆</span>
+            <div>
+                <small>SCORE</small>
+                <strong id="score">0</strong>
+            </div>
+        </div>
+
+        <div class="score-card">
+            <span class="score-icon">💗</span>
+            <div>
+                <small>MOVES</small>
+                <strong id="moves">30</strong>
+            </div>
+        </div>
+
+        <div class="score-card">
+            <span class="score-icon">🎯</span>
+            <div>
+                <small>TARGET</small>
+                <strong id="target">1000</strong>
+            </div>
+        </div>
+    </section>
+
+    <section class="board-frame">
+        <div id="board" class="board"></div>
+    </section>
+
+    <p id="message" class="message">
+        Match 3 or more candies!
+    </p>
+
+    <button id="restart" class="restart-button">
+        <span>⟳</span> Restart Game
+    </button>
+
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
