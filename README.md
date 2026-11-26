@@ -84,6 +84,4 @@ This is an independently developed educational project inspired by the match-3 p
 
 ---
 
-**Project Type:** Personal Portfolio Project  
-**Development:** Independent  
-**Technologies:** HTML5, CSS3, JavaScript
+
